@@ -1,0 +1,14 @@
+<supermercado>
+  <nombre>Supermercado C</nombre>
+  <direccion>Calle 3, Madrid</direccion>
+  <geolocalizacion>
+    <latitud>40.4189</latitud>
+    <longitud>-3.70403</longitud>
+  </geolocalizacion>
+  <productos>
+    <producto>
+      <nombre>Agua mineral</nombre>
+      <oferta>true</oferta>
+      <periodo_vigencia>
+        <inicio>2023-04-20</inicio>
+        <fin>2023-

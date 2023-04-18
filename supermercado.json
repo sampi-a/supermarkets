@@ -1,0 +1,71 @@
+{
+    "supermercados": [
+      {
+        "nombre": "Supermercado A",
+        "direccion": "Calle 1, Madrid",
+        "geolocalizacion": {
+          "latitud": 40.4167,
+          "longitud": -3.70325
+        },
+        "productos": [
+          {
+            "nombre": "Leche",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-04-20",
+              "fin": "2023-04-30"
+            },
+            "habitual": true,
+            "unidades": 1,
+            "unidad_medida": "litro",
+            "precio": 0.80,
+            "adquirido": false
+          },
+          {
+            "nombre": "Pan de molde",
+            "oferta": false,
+            "periodo_vigencia": {},
+            "habitual": true,
+            "unidades": 1,
+            "unidad_medida": "paquete",
+            "precio": 1.50,
+            "adquirido": true
+          }
+        ]
+      },
+      {
+        "nombre": "Supermercado B",
+        "direccion": "Calle 2, Madrid",
+        "geolocalizacion": {
+          "latitud": 40.4127,
+          "longitud": -3.70732
+        },
+        "productos": [
+          {
+            "nombre": "Coca-cola",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-04-20",
+              "fin": "2023-04-30"
+            },
+            "habitual": false,
+            "unidades": 6,
+            "unidad_medida": "lata",
+            "precio": 2.99,
+            "adquirido": false
+          },
+          {
+            "nombre": "Fruta",
+            "oferta": false,
+            "periodo_vigencia": {},
+            "habitual": false,
+            "unidades": 2,
+            "unidad_medida": "kg",
+            "precio": 4.50,
+            "adquirido": false
+          }
+        ]
+      }
+    ]
+  }
+  
